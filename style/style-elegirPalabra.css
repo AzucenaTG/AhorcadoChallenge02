@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+ 
+body{
+    margin: 0;
+    background: url(https://i.pinimg.com/736x/e2/68/72/e268722646406c652e73c1b208ab818d.jpg);
+ }
+
+ h1{
+ position: absolute;
+ left: 19px;
+ top: 1px;   
+}
+
+ .texto{
+ position: absolute;
+ left: 400px;
+ top: 99px;
+ padding: 20px;
+ width: 500px;
+ height:300px;
+ border-color: blueviolet;
+}
+
+ p{
+ position: absolute;
+ left: 440px;
+ top: 450px;
+ font-family: 'Anton', sans-serif;
+ color: red;
+}
+
+ .guardar{
+    position: absolute;
+    left: 440px;
+    top: 500px;
+    width: 175px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+    border-radius: 10px;
+    background:#60397a;
+    border-color: violet;
+    color: white;
+    cursor: pointer;
+}
+
+ .cancelar{
+    position: absolute;
+    left: 740px;
+    top: 500px;
+    width: 175px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+    border-radius: 10px;
+    background:#60397a;
+    border-color: violet;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+   }

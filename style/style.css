@@ -1,0 +1,63 @@
+ @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+ 
+
+ 
+ h1{
+ position: absolute;
+ left: 29px;
+ top: 10px; 
+ height: 20px;
+ width: 30px;    
+}
+ h2{
+ position:absolute;
+ left: 400px;
+ top: 90px; 
+}
+ .nuevoJuego{
+ position: absolute;
+ left: 561px;
+ top: 230px;
+ width: 200px;
+ height: 80px;
+ font-size: 20px;
+ border-radius: 10px;
+ font-family: 'Silkscreen', cursive;
+ background:#60397a;
+ border-color: violet;
+ cursor: pointer;
+ text-decoration: none;
+} 
+ a{
+ text-decoration: none;
+ color:white;
+}
+ .nuevoJuego:hover{
+ background: mediumorchid;
+ transform: scale(1.2);
+ }  
+
+ .elegirPalabra{
+ position: absolute;
+ left: 561px;
+ top: 350px;
+ width: 200px;
+ height: 80px;
+ font-size: 20px;
+ border-radius: 10px;
+ color:white;
+ font-family: 'Silkscreen', cursive;
+ background:#60397a;
+ border-color: violet;
+ cursor: pointer;
+}
+ .elegirPalabra:hover{
+ background: mediumorchid;
+ transform: scale(1.2);
+} 
+
+ .Copyright{
+ position: absolute;  
+ left: 480px;
+ top: 560px;   
+}

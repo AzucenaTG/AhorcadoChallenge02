@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Ahorcado</title>
+        <link rel=import href="index.html">
+        <link rel="stylesheet" href="style/style-juego.css">
+    </head>
+
+    <body>
+        <header>
+         <div class="fondoDeLogo"><h1><img src="assets/logoo.png" alt="es el logo de un oso"></h1></div>
+        </header>
+        <main>
+            <div class="estructura">
+            <img class="cuadradoBlanco" src="assets/fondo2.png">
+            <img class="paloDeMuerte" id="paloDeMuerte" src="assets/palo.png" alt="palo donde muere el oso">
+            <img class="gano-Perdio" id="ganoPerdio" alt="ganoPerdio">
+            <img class="tamanoDelPalo" id="cabezaDelPalo" src="imgError/0cabeza.png" alt="cabeza del palo">
+            <img class="brazoIzquierdo" id="1brazoIzquierdo" src="imgError/1brazo_izquierdo.png" alt="cabeza del palo">
+            <img class="brazoDerechoo" id="brazoDerecho" src="imgError/2brazoDerecho.png" alt="cabeza del palo">
+            <img class="parteBaja" id="parteBaja" src="imgError/3parteBaja.png" alt="cabeza del palo">
+            <img class="osoCompleto" id="ositoCompleto" src="assets/logoo.png" alt="imagen de un oso">
+            <div>
+                <div class="guiones" id="guionesConPalabraSecreta">
+                </div> 
+            </div> 
+            <div>
+                <div class="guionesErrores" id="guionesConLetrasEquivocadas">
+                </div>
+            </div>
+            <div class="botonesDeLetra" id="botonesDeLetras"> 
+                <button class="botonDeAbecedario">A</button>
+                <button class="botonDeAbecedario">B</button>
+                <button class="botonDeAbecedario">C</button>
+                <button class="botonDeAbecedario">D</button>
+                <button class="botonDeAbecedario">E</button>
+                <button class="botonDeAbecedario">F</button>
+                <button class="botonDeAbecedario">G</button>
+                <button class="botonDeAbecedario">H</button>
+                <button class="botonDeAbecedario">I</button>
+                <button class="botonDeAbecedario">J</button>
+                <button class="botonDeAbecedario">K</button>
+                <button class="botonDeAbecedario">L</button>
+                <button class="botonDeAbecedario">M</button>
+                <button class="botonDeAbecedario">N</button>
+                <button class="botonDeAbecedario">O</button>
+                <button class="botonDeAbecedario">P</button>
+                <button class="botonDeAbecedario">Q</button>
+                <button class="botonDeAbecedario">R</button>
+                <button class="botonDeAbecedario">S</button>
+                <button class="botonDeAbecedario">T</button>
+                <button class="botonDeAbecedario">U</button>
+                <button class="botonDeAbecedario">V</button>
+                <button class="botonDeAbecedario">W</button>
+                <button class="botonDeAbecedario">X</button>
+                <button class="botonDeAbecedario">Y</button>
+                <button class="botonDeAbecedario">Z</button>
+            </div>
+            <div>
+                <p class="mensajeFinalGano" id="mensajeGano">¡¡Felicidades Ganaste!!</p>
+                <p class="mensajeFinalPerdio" id="mensajePerdio">Perdiste 😨<br>vuelve a intentarlo</p>
+            </div>
+            <div>
+             <button class="comenzarNuevamente" id="botonComenzarNuevamente"><a href="juego.html">Comenzar Nuevamente</a></button>
+             <button class="abandonar"><a class="salir" href="index.html">Abandonar</a></button>
+            </div>
+        </div>
+        </main>
+                 <script src="scripts/script.js"></script>
+         <p class="Copyright"> &copy Copyright Maria Azucena Torres Gorlero - 2022</p>         
+    </body>
+</html>
